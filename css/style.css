@@ -2006,7 +2006,11 @@ nav a{
     background-color:#212121;
 }
 #home{
-    height:50%;
+    height:auto;
+}
+#home .center-vertically-holder{
+    padding-top:30px;
+    padding-bottom:50px;
 }
 .text-black{
     color:#212121 !important;
@@ -2031,6 +2035,9 @@ nav a{
 }
 .color5{
     background-color:#7B1FA2 !important;
+}
+.resumebutton{
+    margin-top:25px;
 }
 
 
