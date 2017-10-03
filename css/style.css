@@ -795,7 +795,7 @@ ul.social-buttons li a:active {
 }
 
 .thumbnail .caption {
-    color: #A2A2A2;
+    color: #DFDFDF;
     padding: 5px;
 }
 
@@ -1021,11 +1021,12 @@ ul.social-buttons li a:active {
 	width: 100%;
 	height: 100%;
 	background-image: url("");
-    background-color:#212121;
+    background-color:#4F31A8;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 ); /* IE6-9 */
+
 }
 
 .jumbotron.jumbotron-main hr {
@@ -1350,7 +1351,6 @@ ul.social-buttons li a:active {
 -------------------------------------------------------------- */
 .profile-box {
 	padding: 20px 30px 15px 30px;
-	background-color: #313131;
 	position: relative;
 	outline: 1px solid #bfbfbf;
 	outline-offset: -13px;
@@ -1370,6 +1370,9 @@ ul.social-buttons li a:active {
 
 .profile-box ul li:last-child{
     border-bottom:0;
+}
+.profilefei {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* =Our Count
@@ -1642,6 +1645,7 @@ span.portfolio-hover a {
 	-webkit-flex-flow: row wrap;
 	-webkit-justify-content: space-between;
 	-webkit-align-content: flex-start;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* =Pricing
@@ -2005,6 +2009,11 @@ nav a{
 .navbar-default{
     background-color:#212121;
 }
+.color0{
+    background: #1B2355; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #59608B, #1B2355); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #59608B, #1B2355) !important;
+}
 #home{
     height:auto;
 }
@@ -2038,6 +2047,12 @@ nav a{
 }
 .resumebutton{
     margin-top:25px;
+}
+#work,#articles,#profile{
+  background: #1B2355; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #59608B, #1B2355); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #59608B, #1B2355);
+
 }
 
 
