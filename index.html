@@ -44,15 +44,15 @@
 
 	<!-- Begin Header -->
 		<!-- Begin Navigation -->
-		<header><nav class="navbar navbar-default navbar-fixed-top color0">
+		<header><nav class="navbar navbar-default navbar-fixed-top landingnav">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="border:0px;">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<span class="icon-bar nav-dark"></span>
+							<span class="icon-bar nav-dark"></span>
+							<span class="icon-bar nav-dark"></span>
 						</button>
 						<a class="navbar-brand scroll-link" href="#home" data-id="home"><img src="images/logos/fei.png" style="height:39px;"></a>
 					</div>
@@ -73,14 +73,12 @@
 
 	<!-- Begin Jumbotron -->
 	<div class="jumbotron jumbotron-main" id="home">
-		<div id="particles-js" class="color0"></div><!-- /.particles div -->
-		<div class="container center-vertically-holder">
+		<div id="particles-js" class="landingpage"></div><!-- /.particles div -->
+		<div class="container center-vertically-holder landinghead">
 			<div class="center-vertically">
-				<div class="col-sm-12 col-md-8 col-md-offset-1">
-					<img src="images/homepage/head.png" style="width:50%" id="mobile_disappear">
-					<h1 class="scaleReveal header1">
-						Turning ideas into great products
-					</h1>
+				<div class="col-sm-12 col-md-8 col-md-offset-2">
+					<h1 class="scaleReveal header1 textdark-h">Hello, I'm Fei</h1>
+					<h4 class="scaleReveal textdark-p">I turn ideas into great products and services</h4>
 				</div><!-- /.column -->
 			</div><!-- /.vertical center -->
 		</div><!-- /.container -->
@@ -88,186 +86,96 @@
 	<!-- End Jumbotron -->
 
 	<!-- Begin Work -->
-	<section id="work" class="background1 section-padding-top">
+	<section id="work" class="background1 section-padding-top scaleReveal">
+		<div id="particles-js" class="color0 nondisplay"></div>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 text-center mb50">
 					<!-- Filter Buttons -->
 					<button class="filter btn btn-default btn-category btn-lg" data-filter="all">All</button>
-					<button class="filter btn btn-default btn-category btn-lg" data-filter=".app">App</button>
 					<button class="filter btn btn-default btn-category btn-lg" data-filter=".web">Web</button>
-					<button class="filter btn btn-default btn-category btn-lg" data-filter=".desktop">Desktop</button>
-					<button class="filter btn btn-default btn-category btn-lg" data-filter=".research">Research</button>
-					<button class="filter btn btn-default btn-category btn-lg" data-filter=".icon">Icon</button>
+					<button class="filter btn btn-default btn-category btn-lg" data-filter=".app">App</button>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div id="thework">
 			    <!-- Item 1 -->
-			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix app web" data-my-order="6">
-			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/nsportc.png" class="lazyload" style="width:100%;"/></div>
-			    	<span class="portfolio-badge badge">App + Web</span>
-			    	<span class="portfolio-hover">
-						<span>
-							<a href="nsportc.html">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">NsportC Concussion App</span>
-						</span>
-					</span>
-			    </div><!-- /.column -->
-
-			   	<!-- Item 2 -->
 			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix web" data-my-order="7">
+			    	<a href="as.html">
 			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/as.png" class="lazyload" style="width:100%;"/></div>
 			    	<span class="portfolio-badge badge">Web</span>
 			    	<span class="portfolio-hover">
 						<span>
-							<a href="as.html">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">AmericanScholarships.com</span>
+							<h3 class="project-title no-margin-bottom mt10">Cappex Web Products</h3>
+							<p class="project-text">Led the effort on creating Cappex design system, defining Agile UX workflow, initiating and conducting user research, and designing user interfaces.</p>
 						</span>
-					</span>
+					</span></a>
 			    </div><!-- /.column -->
 
-			    <!-- Item 3 -->
-			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix app" data-my-order="4">
-			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/axxessapp.png" class="lazyload" style="width:100%;"/></div>
-			    	<span class="portfolio-badge badge">App</span>
+			    <!-- Item 2 -->
+			    <a href="nsportc.html">
+			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix app web" data-my-order="6">
+			    	<a href="nsportc.html">
+			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/nsportc.png" class="lazyload" style="width:100%;"/></div>
+			    	<span class="portfolio-badge badge">App + Web</span>
 			    	<span class="portfolio-hover">
 						<span>
-							<a href="axxessapp.html">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Axxess Nurse App Profile</span>
+							<h3 class="project-title no-margin-bottom mt10">NsportC App Creation</h3>
+							<p class="project-text">Led the end-to-end UX design of NsportC, a mobile app that helps K12 school coaches detect players' brain injuries.</p>
 						</span>
-					</span>
-			    </div><!-- /.column -->
+					</span></a>
+			    </div>
+				<!-- /.column -->
 
-			    <!-- Item 4 -->
+			    <!-- Item 3 -->
 			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix web" data-my-order="5">
+			    	<a href="axxessweb.html">
 			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/axxessweb.png" class="lazyload" style="width:100%;"/></div>
 			    	<span class="portfolio-badge badge">Web</span>
 			    	<span class="portfolio-hover">
 						<span>
-							<a href="axxessweb.html">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Axxess Web App</span>
+							<h3 class="project-title no-margin-bottom mt10">Axxess Web App Redesign</h3>
+							<p class="project-text">Redesigned the Axxess flagship web app focusing on responsiveness and personalization. Initiated and facilitated the adoption of card system UIs.</p>
 						</span>
-					</span>
+					</span></a>
 			    </div><!-- /.column -->
 
-			    <!-- Item 5 -->
-			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix research desktop" data-my-order="2">
-			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/installation.png" class="lazyload" style="width:100%;"/></div>
-			    	<span class="portfolio-badge badge">Desktop + Research</span>
-			    	<span class="portfolio-hover">
-						<span>
-							<a href="ansys.html">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Installation Usability Studies</span>
-						</span>
-					</span>
-			    </div><!-- /.column -->
-
-			    <!-- Item 6 -->
+				<!-- Item 4 -->
 			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix app research" data-my-order="1">
+			    	<a href="readfulu.html">
 			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/readfulu.png" class="lazyload" style="width:100%;"/></div>
 			    	<span class="portfolio-badge badge">App + Research</span>
 			    	<span class="portfolio-hover">
 						<span>
-							<a href="readfulu.html">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Readful-U Assistive App</span>
+							<h3 class="project-title no-margin-bottom mt10">Readful-U Assistive App Design</h3>
+							<p class="project-text">Designed a mobile application to fulfill psychological needs for low-vision elders. Finalist of CHI Student Design Competition.</p>
 						</span>
-					</span>
+					</span></a>
 			    </div><!-- /.column -->
 
-			    <!-- Item 7 -->
-			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix web" data-my-order="9">
-			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/ansysweb.png" class="lazyload" style="width:100%;"/></div>
-			    	<span class="portfolio-badge badge">Web</span>
-			    	<span class="portfolio-hover">
-						<span>
-							<a href="ansyscareer.html">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Ansys Career Site Redesign</span>
-						</span>
-					</span>
-			    </div><!-- /.column -->
-
-			    <!-- Item 8 -->
+			    <!-- Item 5 -->
 			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix app" data-my-order="7">
+			    	<a href="images/other/troup.png" class="zoom" title="Troup">
 			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/troup.png" class="lazyload" style="width:100%;"/></div>
 			    	<span class="portfolio-badge badge">App</span>
 			    	<span class="portfolio-hover">
 						<span>
-							<a href="images/other/troup.png" class="zoom" title="Troup">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Troup Group Travel App</span>
+							<h3 class="project-title no-margin-bottom mt10">Troup Group Travel App Design</h3>
+							<p class="project-text">Troup is a mobile application that enhances group travel experience by strengthening communication and enabling free will.</p>
 						</span>
-					</span>
+					</span></a>
 			    </div><!-- /.column -->
 
-			    <!-- Item 9 -->
-			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix web" data-my-order="7">
-			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/jarvis.png" class="lazyload" style="width:100%;"/></div>
-			    	<span class="portfolio-badge badge">Web</span>
+                <!-- Item 6 -->
+			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix web app" data-my-order="2">
+			    	<a href="ansys.html">
+			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/installation.png" class="lazyload" style="width:100%;"/></div>
+			    	<span class="portfolio-badge badge">Desktop + Research</span>
 			    	<span class="portfolio-hover">
 						<span>
-							<a href="images/other/mi2.png" class="zoom" title="Jarvis">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">JARVIS Activity Dashboard</span>
+							<h3 class="project-title no-margin-bottom mt10">Ansys Installation Usability Study</h3>
+							<p class="project-text">Conducted heuristics evaluation and usability tests to discover best practices in installation process design focusing on improving visibility of system status and minimizing user effort.</p>
 						</span>
-					</span>
-			    </div><!-- /.column -->
-
-			    <!-- Item 10 -->
-			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix app" data-my-order="7">
-			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/fruitfairy.png" class="lazyload" style="width:100%;"/></div>
-			    	<span class="portfolio-badge badge">App</span>
-			    	<span class="portfolio-hover">
-						<span>
-							<a href="images/other/ff.png" class="zoom" title="Fruit Fairy">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">FruitFairy Fruit Delivery App</span>
-						</span>
-					</span>
-			    </div><!-- /.column -->
-
-			    <!-- Item 11 -->
-			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix app" data-my-order="7">
-			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/lingo.png" class="lazyload" style="width:100%;"/></div>
-			    	<span class="portfolio-badge badge">App</span>
-			    	<span class="portfolio-hover">
-						<span>
-							<a href="images/other/lx.png" class="zoom" title="Lingo">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Lingo Language Social App</span>
-						</span>
-					</span>
-			    </div><!-- /.column -->
-
-			    <!-- Item 12 -->
-			    <div class="col-xs-12 col-sm-6 portfolio-box no-padding mix desktop icon" data-my-order="7">
-			    	<div class="portfolio-image-holder"><img alt="" src="images/lazy.gif" data-src="images/homepage/ansysicon.png" class="lazyload" style="width:100%;"/></div>
-			    	<span class="portfolio-badge badge">Desktop + Icon</span>
-			    	<span class="portfolio-hover">
-						<span>
-							<a href="images/other/ansys.png" class="zoom" title="Ansys Product Icons">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">ANSYS Product Icon</span>
-						</span>
-					</span>
+					</span></a>
 			    </div><!-- /.column -->
 			</div><!-- /.row -->
 		</div><!-- /.container -->
@@ -275,52 +183,42 @@
 	<!-- Begin Work -->
 
 	<!-- Start Articles -->
-	<section id="articles" class="background2 section-padding">
+	<section id="articles" class="background2 section-padding scaleReveal">
 		<div class="container">
-			<div class="col-xm-12 col-sm-6 col-md-4  thumbnail no-margin">
-				<img alt="" src="images/lazy.gif" data-src="images/homepage/service.png" class="lazyload" style="width:100%;"/>
-				<div class="caption">
-					<h3 class="mb15">Service Design in Long-term Oriented Cultures</h3>
-					<p class="text-small mb20">@ UXPA Magazine<br>
-					Not very long ago, a disturbing scene captured from a United...</p>
-					<p class="no-margin"><a class="btn btn-default" href="http://uxpamagazine.org/" target="_blank" role="button">Read more</a></p>
-				</div>
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h1 class="header1 textdark-h subtitle">
+					Articles
+				</h1>
+			</div><!-- /.column -->
+			<div class="col-xm-12 col-sm-6 col-md-4 thumbnail no-margin">
+				<a href="http://uxpamagazine.org/service-design-in-long-term-oriented-cultures/" target="_blank" class="cardlink"><div class="acard">
+					<img alt="" src="images/lazy.gif" data-src="images/homepage/service.png" class="lazyload" style="width:100%;"/>
+					<div class="caption">
+						<p class="text-small mb20 source">@ UXPA Magazine</p>
+						<h3 class="mb15">Service Design in Long-term Oriented Cultures</h3>
+						<p class="text-small mb20">Cultural differences between Western and Asian countries can impact how customers perceive service failures. Understanding these differences can have a large impact on your business...</p>
+					</div>
+				</div></a>
 			</div>
 			<div class="col-xm-12 col-sm-6 col-md-4  thumbnail no-margin">
-				<img alt="" src="images/lazy.gif" data-src="images/homepage/evil.png" class="lazyload" style="width:100%;"/>
-				<div class="caption">
-					<h3 class="mb15">Evil UX practices and dark design patterns</h3>
-					<p class="text-small mb20">@ Medium<br>
-					Recently I received a ridiculous amount of advertisement emails...</p>
-					<p class="no-margin"><a class="btn btn-default" target="_blank" href="http://medium.com/@renfei1992/some-ux-designers-are-dark-and-evil-and-they-are-good-f395bd020a3b" role="button">Read more</a></p>
-				</div>
+				<a href="https://medium.com/@renfei1992/being-picky-an-airbnb-usability-review-4853bf80db0d" target="_blank" class="cardlink"><div class="acard">
+					<img alt="" src="images/lazy.gif" data-src="images/homepage/airbnb.png" class="lazyload" style="width:100%;"/>
+					<div class="caption">
+						<p class="text-small mb20 source">@ Insights & Observations</p>
+						<h3 class="mb15">Being picky: an AirBnb Usability Review</h3>
+						<p class="text-small mb20">During the evaluation, 10 Usability Heuristics developed by Nielsen Norman Group was utilized as the primary usability inspection method to help identify potential problems in the user...</p>
+					</div>
+				</div></a>
 			</div>
 			<div class="col-xm-12 col-sm-6 col-md-4  thumbnail no-margin">
-				<img alt="" src="images/lazy.gif" data-src="images/homepage/desktop.png" class="lazyload" style="width:100%;"/>
-				<div class="caption">
-					<h3 class="mb15">Desktop UX: software installation studies</h3>
-					<p class="text-small mb20">@ Medium<br>
-					Having been a UX designer for over 1.5 year, I spent most of time...</p>
-					<p class="no-margin"><a class="btn btn-default" target="_blank" href="http://medium.com/@renfei1992/desktop-ux-software-installer-best-practices-6d6d7383dc98" role="button">Read more</a></p>
-				</div>
-			</div>
-			<div class="col-xm-12 col-sm-6 col-md-4  thumbnail no-margin">
-				<img alt="" src="images/lazy.gif" data-src="images/homepage/airbnb.png" class="lazyload" style="width:100%;"/>
-				<div class="caption">
-					<h3 class="mb15">Being picky: an AirBnb Usability Review</h3>
-					<p class="text-small mb20">@ Insights & Observations<br>
-					Recently I have been looking for employment after gradation, so...</p>
-					<p class="no-margin"><a class="btn btn-default" target="_blank" href="http://medium.com/@renfei1992/being-picky-an-airbnb-usability-review-4853bf80db0d" role="button">Read more</a></p>
-				</div>
-			</div>
-			<div class="col-xm-12 col-sm-6 col-md-4  thumbnail no-margin">
-				<img alt="" src="images/lazy.gif" data-src="images/homepage/acm.png" class="lazyload" style="width:100%;"/>
-				<div class="caption">
-					<h3 class="mb15">Readful-U app design for low vision patients</h3>
-					<p class="text-small mb20">@ ACM the 2016 CHI Conference<br>
-					Low vision seriously impedes people from performing daily...</p>
-					<p class="no-margin"><a class="btn btn-default" target="_blank" href="http://dl.acm.org/citation.cfm?id=2890639" role="button">Read more</a></p>
-				</div>
+				<a href="https://dl.acm.org/citation.cfm?id=2890639" target="_blank" class="cardlink"><div class="acard">
+					<img alt="" src="images/lazy.gif" data-src="images/homepage/acm.png" class="lazyload" style="width:100%;"/>
+					<div class="caption">
+						<p class="text-small mb20 source">@ ACM the 2016 CHI Conference</p>
+						<h3 class="mb15">Readful-U app design for low vision patients</h3>
+						<p class="text-small mb20">Low vision seriously impedes people from performing daily tasks especially reading. Readful-U is a mobile application with an attachable stand that helps people with low vision to read easily...</p>
+					</div>
+				</div></a>
 			</div>
 		</div><!-- /.container -->
 	</section>
@@ -329,8 +227,13 @@
 	<!-- Start Profile -->
 	<section id="profile" class="background2 section-padding">
 		<div class="container">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h1 class="scaleReveal header1 textdark-h subtitle">
+					About
+				</h1>
+			</div><!-- /.column -->
 			<div class="row">
-				<div class="col-sm-4 profilefei">
+				<div class="col-sm-4 profilefei scaleReveal">
 					<img alt="" src="images/homepage/Sketch.png" class="img-responsive">
 					<div class="profile-box">
 						<ul class="list-unstyled">
@@ -338,38 +241,37 @@
 							<li><strong>Title:</strong> UX Designer</li>
 							<li><strong>Experience: </strong> 2 Years +</li>
 							<li><strong>Email:</strong> renfei1992@gmail.com</li>
-							<li><strong>Interest:</strong> New Concepts/Ideas
 						</ul>
 					</div>
 				</div><!-- column -->
-				<div class="col-sm-8 mt30-xs">
-					<h5 class="heading-1 mb20">Intro</h5>
-					<h3 class="mb15 no-margin-top">Hi, my name is Fei. I'm a UX designer.</h3>
-					<p class="text-small text-switch">Two coffee shops near your house. They both sell same types of coffee for the same price. EXPERIENCE makes you decide to go to one instead of the other. Same deal with your products or ideas. They are knowledgable, smart, intelligent, and helpful, but they also need a nice personality.</p>
+				<div class="col-sm-8 mt30-xs profileinfo">
+					<h5 class="scaleReveal heading-1 mb20">Intro</h5>
+					<h3 class="scaleReveal mb15 no-margin-top">Hi, my name is Fei. I'm a UX designer.</h3>
+					<p class="scaleReveal text-small text-switch">Two coffee shops near your house. They both sell same types of coffee for the same price. Experience makes you decide to go to one instead of the other. Same deal with your products or services. User experience defines how likely users will use your product and how likely they will switch to your competitiors.</p>
 					<span class="divider"></span>
-					<h5 class="heading-1 mt20 mb20">Skills</h5>
-					<div class="progress">
+					<h5 class="scaleReveal heading-1 mt20 mb20">Skills</h5>
+					<div class="scaleReveal progress">
 						<div class="progress-bar text-left" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
 							UX Research
 						</div>
 					</div>
-					<div class="progress">
+					<div class="scaleReveal progress">
 						<div class="progress-bar text-left" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
 							UI Design
 						</div>
 					</div>
-					<div class="progress">
+					<div class="scaleReveal progress">
 						<div class="progress-bar text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
 							Front-end Dev
 						</div>
 					</div>
-					<div class="progress-meter">
+					<div class="scaleReveal progress-meter">
 						<div class="meter meter-left" style="width: 30%;"><span class="meter-text">Beginner</span></div>
 						<div class="meter meter-left" style="width: 40%;"><span class="meter-text">Intermediate</span></div>
 						<div class="meter meter-right" style="width: 30%;"><span class="meter-text">Master</span></div>
 					</div>
-					<p class="text-small mt50"><span class="text-switch">"If your users can't use it, it doesn't work"<br>"The only thing worse than being blind is having sight but no vision"</span></p>
-					<p class="resumebutton"><a class="btn btn-default btn-lg" target="_blank" href="resume.pdf" role="button">View My Resume</a></p>
+					<p class="scaleReveal text-small mt50"><span class="text-switch">"If your users can't use it, it doesn't work"<br>"The only thing worse than being blind is having sight but no vision"</span></p>
+					<p class="scaleReveal resumebutton"><a class="btn btn-default btn-lg resumebutton" target="_blank" href="resume.pdf" role="button">View My Resume</a></p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 		</div><!-- /.container -->
@@ -444,12 +346,12 @@
 	<!-- End Contact -->
 
 	<!-- Begin Footer -->
-	<footer class="footer-padding color0">
+	<footer class="footer-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2 text-center">
 					<img src="images/logos/fei.png" style="height:60px;">
-					<h2 class="theme-title"><span class="theme-title-smaller">Fei's UX Design Portfoilio</span></h2>
+					<h2 class="theme-title"><span class="theme-title-smaller borderdark">Fei's UX Design Portfoilio</span></h2>
 					<a target="_blank" href="http://www.linkedin.com/in/renfei1992/"><span class="ion-social-linkedin social-icons-dark-hover mr15"></span></a>
 	                <a target="_blank" href="http://www.facebook.com/renfei1992"><span class="ion-social-facebook social-icons-dark-hover mr15"></span></a>
 	                <a target="_blank" href="http://plus.google.com/u/1/101250758041085299049"><span class="ion-social-googleplus-outline social-icons-dark-hover"></span></a>
